@@ -10,6 +10,7 @@ html {
 
   background-color: black;
   font-family: Helvetica;
+  font-size: var(--font-size);
 }
 * {
   margin: 0;
@@ -87,4 +88,49 @@ html {
 .imgs_tea_of_the_month img {
   width: 300px;
   height: 200px;
+}
+
+.imgs_tea_of_the_month h4 {
+  margin-top: 10px;
+}
+#tittle_of_tea_of_the_month {
+  line-height: 60px;
+  margin-top: 100px;
+}
+.locations_container {
+  margin-top: 100px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column wrap;
+  place-content: center;
+}
+.locations_container .img_of_location_container {
+  height: 500px;
+  background-image: url("./imgs/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  width: 1050px;
+  display: inline-flex;
+  flex-flow: row wrap;
+  place-content: center;
+  column-gap: 40px;
+}
+.img_of_location_container .box_container {
+  text-align: center;
+  width: 300px;
+  height: 70%;
+}
+.img_of_location_container .box_container .boxs {
+  width: 300px;
+  margin-top: 53px;
+  height: 70%;
+  background-color: black;
+}
+#second_box {
+  margin-top: 15px;
+}
+.the_tea_cozy {
+  display: flex;
 }
