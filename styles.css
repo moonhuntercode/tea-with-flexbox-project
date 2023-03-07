@@ -127,10 +127,20 @@ html {
   margin-top: 53px;
   height: 70%;
   background-color: black;
+  opacity: 1;
+  line-height: 60px;
 }
 #second_box {
   margin-top: 15px;
 }
-.the_tea_cozy {
+.the_tea_cozy_container {
   display: flex;
+  flex-flow: column wrap;
+  height: 200px;
+  text-align: center;
+  line-height: 60px;
+}
+footer {
+  text-align: left;
+  margin-left: 20px;
 }
